@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "MovieAngularJSApp": "1.0.0"
+  },
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+  "frameworks": {
+    "dnx451": {},
+    "dnxcore50": {}
+  },
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "entryPoint": "MovieAngularJSApp",
+  "loadable": false
+}
